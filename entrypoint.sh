@@ -38,3 +38,4 @@ cd /opt/fractal-engine/app
 # 'exec' replaces the shell with the Gunicorn process,
 # making it the main process (PID 1) for the container.
 exec gunicorn --workers 4 --bind 127.0.0.1:8000 app:app
+ 
