@@ -8,3 +8,4 @@ venv/
 # Compiled C artifacts
 app/escape_time
 *.o
+
