@@ -64,3 +64,4 @@ This point takes 1000 iterations and is classified as "Zone 0".
 curl -k -X POST https://localhost/predict \
      -H "Content-Type: application/json" \
      -d '{"x": 0.1, "y": 0.2}'
+
