@@ -40,3 +40,4 @@ RUN chmod +x /opt/fractal-engine/entrypoint.sh
 # 9. Run the entrypoint script
 ENTRYPOINT ["/opt/fractal-engine/entrypoint.sh"]
 
+
