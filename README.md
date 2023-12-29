@@ -66,3 +66,4 @@ curl -k -X POST https://localhost/predict \
      -d '{"x": 0.1, "y": 0.2}'
 
 
+
