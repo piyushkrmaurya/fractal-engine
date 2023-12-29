@@ -41,3 +41,4 @@ RUN chmod +x /opt/fractal-engine/entrypoint.sh
 ENTRYPOINT ["/opt/fractal-engine/entrypoint.sh"]
 
 
+
