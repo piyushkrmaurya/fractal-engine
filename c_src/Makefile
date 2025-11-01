@@ -6,47 +6,16 @@ SRC = escape_time.c
 
 # Compiler and flags
 CC = gcc
-# -O2 for optimization, -Wall for warnings, -lm to link the math library
-CFLAGS = -O2 -Wall -lm
+CFLAGS = -O2 -Wall
+# Linker flags (math library)
+LDFLAGS = -lm
 
 # Default target
 all: $(TARGET_BIN)
 
 $(TARGET_BIN): $(SRC)
-	$(CC) $(CFLAGS) -o $(TARGET_BIN) $(SRC)
+	# Linker flags (LDFLAGS) must come *after* the source/object files
+	$(CC) $(CFLAGS) -o $(TARGET_BIN) $(SRC) $(LDFLAGS)
 
 clean:
 	rm -f $(TARGET_BIN)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
